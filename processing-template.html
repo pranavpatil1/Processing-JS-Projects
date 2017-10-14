@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script src="bower_components/brick/dist/platform/platform.js"></script>
+    <link rel="import" href="bower_components/brick/dist/brick.html">
+    <style>
+        p {
+            font-family: Inconsolata, sans-serif;
+            font-size: 14px;
+        }
+
+        body {
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <p align="center">
+        <canvas id="mycanvas"></canvas>
+    </p>
+</body>
+
+<script src="https://cdn.jsdelivr.net/processing.js/1.4.8/processing.min.js"></script> 
+<script>
+    var sketchProc = function(processingInstance) {
+        
+        with (processingInstance) {
+            
+            size(400, 400); // YOU MIGHT NEED TO CHANGE THIS
+            frameRate(60);
+			
+			// ADD PROGRAM CODE HERE!
+			
+		}
+	}
+    var canvas = document.getElementById("mycanvas");
+    var processingInstance = new Processing(canvas, sketchProc); 
+</script>
+</html>
