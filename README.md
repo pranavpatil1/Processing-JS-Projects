@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Processing JS Projects
 
 This is a collection of a bunch of cool projects I made while I was learning to code on Khan Academy.
@@ -28,8 +27,8 @@ projects/game_super-mario-bros.js
 ## All projects
 
 My profile links:
+
 khanacademy.org/profile/Animaster.1/projects
 khanacademy.org/profile/GamingGeniusHQ/projects
-=======
+
 # Processing-JS-Projects
->>>>>>> 2ac47a072f5c3df8581b69919db27d1e138d7357
